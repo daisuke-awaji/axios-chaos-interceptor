@@ -1,0 +1,22 @@
+{
+  "name": "axios-chaos-interceptor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf ./dist && rm -rf ./lib && tsc",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "@types/node": "^16.3.0",
+    "jest": "^27.0.6",
+    "nock": "^13.1.1",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}

@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "description": "Inject chaos to axios. Randomize response.",
+  "author": "Daisuke Awaji <gee.awa@gmail.com> (https://github.com/daisuke-awaji)",
+  "homepage": "https://github.com/daisuke-awaji/axios-chaos-interceptor",
   "scripts": {
+    "prepare": "tsc",
     "build": "rm -rf ./dist && rm -rf ./lib && tsc",
     "test": "jest",
     "test:watch": "jest --watchAll"
@@ -18,5 +22,14 @@
   },
   "dependencies": {
     "axios": "^0.21.1"
-  }
+  },
+  "keywords": [
+    "axios",
+    "chaos",
+    "xhr",
+    "http",
+    "ajax",
+    "prmise",
+    "node"
+  ]
 }

@@ -1,7 +1,8 @@
 {
   "name": "axios-chaos-interceptor",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "lib/types/index.d.ts",
   "license": "MIT",
   "description": "Inject chaos to axios. Randomize response.",
   "author": "Daisuke Awaji <gee.awa@gmail.com> (https://github.com/daisuke-awaji)",
